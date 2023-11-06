@@ -7,7 +7,10 @@
     <title>Bikcraft</title>
     <link rel="stylesheet" href="css/style.css.css">
     <link rel="stylesheet" href="css/medias.css">
-    <link rel="stylesheet" href="css/font.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -17,7 +20,7 @@
                 <img src="img/bikcraft.svg" alt="Bikcraft">
             </a>
             <nav aria-label="primaria">
-                <ul class="header-menu">
+                <ul class="header-menu cor-1 font-1-m">
                     <li>
                         <a href="./bicicletas.html">Bicicletas</a>
                     </li>
@@ -34,8 +37,8 @@
     <main class="intro-bg">
        <div class="intro">
             <div class="intro-content">
-                <h1>Bicicletas feitas sob medida<span>.</span></h1>
-                <p>Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
+                <h1 class="font-1-xxl cor-1">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+                <p class="font-2-l cor-6">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
                 <a class="button" href="./bicicletas.html">Escolha a sua</a>
             </div>
             <div>
@@ -44,5 +47,31 @@
        </div>
     </main>
 
+    <article class="bicicletas-lista">
+        <h2 class="font-1-xxl">Escolha a sua <span class="cor-p1">.</span></h2>
+        <ul>
+            <li>
+                <a href="./bicicletas/magic.html">
+                    <img src="img/bicicletas/magic-home.jpg" alt="Bicicleta preta">
+                    <h3 class="font-1-xl">Magic Might</h3>
+                    <span class="font-2-m cor-8">R$ 2.499</span>
+                </a>
+            </li>
+            <li>
+                <a href="./bicicletas/nimbus.html">
+                    <img src="img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta">
+                    <h3 class="font-1-xl">Magic Might</h3>
+                    <span class="font-2-m cor-8">R$ 4999</span>
+                </a>
+            </li>
+            <li>
+                <a href="./bicicletas/nebula.html">
+                    <img src="img/bicicletas/nebula-home.jpg" alt="Bicicleta branca">
+                    <h3 class="font-1-xl">Magic Might</h3>
+                    <span class="font-2-m cor-8">R$ 3999</span>
+                </a>
+            </li>
+        </ul>
+    </article>
 </body>
 </html>

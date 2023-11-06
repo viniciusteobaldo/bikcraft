@@ -1,7 +1,7 @@
 /* HEADER */
 
 .header-bg {
-    background-color: #000000;
+    background-color: var(--cor-13);
 }
 
 .header {
@@ -25,10 +25,7 @@
 
 .header-menu a {
     position: relative;
-    font-family: 'Poppins Regular', sans-serif;
     display: inline-block;
-    font-size: 18px;
-    color: #ffffff;
     padding: 16px 0;
 }
 
@@ -38,11 +35,11 @@
     width: 0;
     height: 2px;
     margin-top: 4px;
-    background: #ffffff;
+    background: var(--cor-1);
     transition: width .6s;
     position: absolute;
 }
 
 .header-menu a:hover::after {
-    width: 98%;
+    width: 100%;
 }
