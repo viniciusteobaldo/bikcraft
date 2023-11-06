@@ -8,13 +8,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
     align-items: center;
-    max-width: 1200px;
-    box-sizing: border-box;
-    padding: 24px;
-    margin-right: auto;
-    margin-left: auto;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header-menu {
@@ -43,3 +40,4 @@
 .header-menu a:hover::after {
     width: 100%;
 }
+
